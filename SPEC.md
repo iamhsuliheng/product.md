@@ -33,11 +33,12 @@ The summary should answer: "If someone asks what this product line is and why it
 
 ### 1. Positioning
 
-This section defines the product line's identity. It answers: what is it, who is it for, and what is it not.
+This section defines the product line's identity. It answers: what is it, who is it for, what experience does it offer, and what is it not.
 
 Contents include, but are not limited to:
 
 - What the product is (genre, format, medium, tone)
+- Core experience — what the audience gets from engaging with this product. For narrative properties, this is the emotional or imaginative experience the story world offers: the kind of journey, tension, wonder, or perspective shift that makes someone seek out this product rather than another in the same genre. For utility products, this is the problem it solves or the capability it provides. Every product line has a core experience; the difference is whether it is primarily emotional or primarily functional.
 - Target audiences (be specific — not "general public")
 - Goals and brand attributes (what the product line stands for)
 - How it differs from the organization's other product lines
