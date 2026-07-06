@@ -4,15 +4,11 @@ A semantic specification for living product documents.
 
 PRODUCT.md describes a product line — its positioning, specifications, production capacity, distribution, and current state — in a single, persistent document written in natural language. It has no end state: it lives as long as the product line exists.
 
-## How it relates to the series
+## What it is
 
-| Spec | Question it answers | Has an endpoint? |
-|------|-------------------|-----------------|
-| [CHARACTER.md](https://github.com/iamhsuliheng/character.md) | Who is this? | No — identity persists |
-| [QUEST.md](https://github.com/iamhsuliheng/quest.md) | Where are we going? | Yes — Destination is reached or abandoned |
-| **PRODUCT.md** | What is this product? | No — maintained as long as the product exists |
+Most documents about products are written to be finished — a business plan gets approved, a proposal gets funded, a project plan gets completed. A PRODUCT.md is different. It is a reference document that persists for the life of the product line, continuously updated to reflect reality.
 
-CHARACTER.md defines who. QUEST.md defines a journey. PRODUCT.md defines what a product line is, how it is made, and where it stands today.
+It answers two questions at once: **What is this product?** and **Where does it actually stand right now?**
 
 ## Quick overview
 
@@ -23,7 +19,7 @@ A PRODUCT.md has one summary line and five sections, ordered from most stable to
 2. **Specifications** — what one unit of the product looks like
 3. **Capacity and Distribution** — how it is made and how it reaches audiences
 4. **Current Situation** — the gap between intent and reality right now
-5. **Related QUESTs** — links to active project documents (index only, no duplicated content)
+5. **Related Projects** — links to active project documents (index only, no duplicated content)
 
 ## Read the spec
 
