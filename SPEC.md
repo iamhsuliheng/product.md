@@ -11,11 +11,11 @@ The document answers two questions simultaneously: **What is this product?** and
 
 A PRODUCT.md has no end state. Unlike a project plan or proposal that gets approved and completed, a product document persists as long as the product line exists. Its sections are updated at different frequencies — positioning rarely changes, specifications occasionally change, and the current situation changes often — but the document itself is never "done."
 
-The basic unit of a PRODUCT.md is a natural language sentence — the same principle that governs CHARACTER.md and QUEST.md. Each section is written in prose, not in structured fields or key-value pairs. An AI reading the document should understand the product line from the language alone, without requiring a schema to interpret it.
+The basic unit of a PRODUCT.md is a natural language sentence. Each section is written in prose, not in structured fields or key-value pairs. An AI reading the document should understand the product line from the language alone, without requiring a schema to interpret it.
 
 ## Relation to Other Documents
 
-A PRODUCT.md is not a QUEST. A QUEST has a Destination that can be reached or abandoned; a PRODUCT.md has no destination, only a reference state it continually approaches or drifts from. The relationship between them is that of a product manager to a project manager: PRODUCT.md describes what the product should be, QUEST cards describe the work being done to move it there.
+A PRODUCT.md is not a project document. A project has a destination that can be reached or abandoned; a PRODUCT.md has no destination, only a reference state it continually approaches or drifts from. The relationship between them is that of a product manager to a project manager: PRODUCT.md describes what the product should be, project documents describe the work being done to move it there.
 
 A PRODUCT.md is not a proposal or business plan. Those are persuasion documents with an approval endpoint. A PRODUCT.md begins as an internal reference and may later be shared externally, but its primary function is orientation, not persuasion.
 
@@ -84,11 +84,11 @@ Contents include, but are not limited to:
 
 This is the most frequently updated section. It should be written with the same honesty standard as Capacity — no reporting only good news.
 
-### 5. Related QUESTs
+### 5. Related Projects
 
-This section contains only links to active QUEST documents or collection items that are currently advancing this product line. No content is duplicated from the QUESTs themselves — this is purely an index.
+This section contains only links to active project documents that are currently advancing this product line. No content is duplicated from the projects themselves — this is purely an index.
 
-When a QUEST is completed or abandoned, its link is removed from this section. The QUEST's own record preserves its history.
+When a project is completed or abandoned, its link is removed from this section. The project's own record preserves its history.
 
 ## Naming
 
@@ -96,13 +96,13 @@ A PRODUCT.md instance is titled with the product line's name. It does not carry 
 
 ## Design Principles
 
-**No end state.** A PRODUCT.md is never completed, only maintained. This distinguishes it from QUEST (which has a Destination) and from proposals (which have an approval point).
+**No end state.** A PRODUCT.md is never completed, only maintained. This distinguishes it from project documents (which have a destination) and from proposals (which have an approval point).
 
 **Stability gradient.** Sections are ordered from most stable to least stable. Positioning rarely moves; the current situation moves constantly. This ordering means a reader scanning from top to bottom moves from bedrock identity to volatile present — the same information architecture used in television production bibles and game design documents.
 
-**Honesty over aspiration.** Capacity, current situation, and gap analysis must reflect reality. This principle is shared with the organization's asset tracking philosophy: narrative text that reports both good and bad news is more valuable than structured indicators that create false precision.
+**Honesty over aspiration.** Capacity, current situation, and gap analysis must reflect reality. Narrative text that reports both good and bad news is more valuable than structured indicators that create false precision.
 
-**Semantic, not structural.** Like CHARACTER.md and QUEST.md, this specification defines what to communicate, not how to format it. A PRODUCT.md can live in a Markdown file, a Craft document, a Google Doc, a Notion page, or any other medium that supports prose.
+**Semantic, not structural.** This specification defines what to communicate, not how to format it. A PRODUCT.md can live in a Markdown file, a Craft document, a Google Doc, a Notion page, or any other medium that supports prose.
 
 ## Prior Art
 
@@ -111,5 +111,3 @@ A PRODUCT.md instance is titled with the product line's name. It does not carry 
 **Game Design Document (GDD).** A GDD is described by practitioners as a "living document" that evolves throughout development. The explicit inclusion of "what the game is NOT" in GDD templates inspired the scope boundary requirement in the Positioning section. The shift from waterfall-era static GDDs to agile living documents parallels the shift from one-time business plans to persistent product documents. Source: industry practice documented across Game Design Skills, Nuclino, Codecks, and Wikipedia.
 
 **Transmedia Marketing Plan (Zeiser).** Anne Zeiser's marketing plan outline in *Transmedia Marketing: From Film and TV to Games and Digital Media* (2015) provides a comprehensive cross-platform planning structure. Its key insight adopted here: "goals rarely change, strategies occasionally change, and tactics are often revised" — which maps directly to the stability gradient. The plan's separation of Story Bible Overview (optional, brief, reference only) from the marketing plan body confirmed the decision to exclude narrative continuity details from PRODUCT.md. The plan's Transmedia Platforms section (primary/secondary/tertiary ranking with inter-platform relationships) informed the Capacity and Distribution section structure.
-
-**QUEST.md.** The companion specification for project-level documents with a defined endpoint. PRODUCT.md borrows the one-line Summary concept (analogous to QUEST's Destination summary) and the principle that tactical details belong in execution documents, not in reference documents. The two specifications share the same semantic-not-structural philosophy and natural-language-sentence foundation.
